@@ -1,0 +1,202 @@
+:root{
+    --main-color: rgba(26, 34, 56);
+    --secondry-color: rgb(253, 152, 28);
+    --text-color: rgb(192, 192, 192);
+    --second-text-color: rgb(128, 128, 128);
+    --hover-color: rgba(255, 255, 255, 0.1);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    transition: all 0.3s linear;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    /* background-color: brown; */
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    background: transparent;
+    position:relative;
+    margin: auto;
+    top: 20px;
+    font-family: "poppins";
+    z-index: 1000;
+}
+
+nav .container {
+    width: 80%;
+    height: 100%;
+    background-color: rgba(19, 20, 20, 0.8);
+    margin: auto;
+}
+
+nav .container .logo {
+    width: 20%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    float: left;
+    margin-left: 5%;
+}
+
+nav .container .menu {
+    width: 40%;
+    height: 100%;
+    /* background-color: chocolate; */
+    float: right;
+}
+
+nav .container .search {
+    width: 50px;
+    height: 50px;
+    /* background-color: crimson; */
+    float: right;
+}
+
+nav .container .hamburger {
+    width: 50px;
+    height: 50px;
+    /* background-color: darkgoldenrod; */
+    float: right;
+    display: none;
+}
+
+nav .container .hamburger i,
+nav .container .search i {
+    line-height: 50px;
+    display: block;
+    color: #FFF;
+    font-size: 1.3em;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+
+nav .container ul li {
+    list-style: none;
+    /* float: left; */
+    display: inline;
+    padding: 10px;
+    line-height: 50px;
+    /* margin-left: 10px; */
+    font-size: 14px;
+    /* background-color: darkgreen; */
+}
+
+nav .container ul li a {
+    text-decoration: none;
+    color: #FFF;
+    line-height: 50px;
+}
+
+nav .container .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav .container ul li a:hover i {
+    animation: moveicon .5s 1;
+}
+
+@keyframes moveicon {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.details{
+    width: 100%;
+    height: auto;
+    /* background-color: burlywood; */
+}
+
+.container-div{
+    width: 80%;
+    height: auto;
+    margin:auto;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+
+.container-div .left{
+    width: 65%;
+    height: auto;
+    /* background-color: coral; */
+    padding: 30px;
+}
+
+#course-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.left p{
+    font-size: 14px;
+}
+
+.description, .requirements, .includes, .technologies{
+    margin-bottom: 30px;
+    /* background-color: darkgreen; */
+}
+
+.description, .requirements, .includes, .technologies p{
+    font-size: 14px;
+    /* background-color: darkgreen; */
+}
+
+.container-div .right{
+    width: 35%;
+    height: 100%;
+    /* background-color:blueviolet; */
+    padding: 20px;
+}
+
+.instructor{
+    padding: 10px;
+}
+
+.instructor .instructor-img{
+    width: 150px;
+    height: 150px;
+    background: url(./images/teacher.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.instructor-info{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    /* background-color:coral; */
+}

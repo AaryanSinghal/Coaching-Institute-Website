@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/extra/slick.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./asset/extra/slick-theme.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./asset/fonts/css/all.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/style.css" type="text/css" media="all">
+
+    <link rel="stylesheet" href="./asset/css/myresponseivedes.css" type="text/css" media="all" />
+
+    <style>
+        .ui-autocomplete {
+            max-height: 100px;
+            overflow-y: auto;
+            /* prevent horizontal scrollbar */
+            overflow-x: hidden;
+        }
+
+        /* IE 6 doesn't support max-height
+         * we use height instead, but this forces the menu to always be this tall
+         */
+
+        * html .ui-autocomplete {
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-gradient">
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <a href="">Silverwink</a>
+                    </div>
+
+                    <div class="hamburger" id="ham">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href=""><i class="fas fa-home"></i> Home</a></li>
+                            <li><a href=""><i class="fas fa-users"></i> About</a></li>
+                            <li><a href=""><i class="fas fa-tasks"></i> Programs</a></li>
+                            <li><a href=""><i class="fas fa-phone-alt"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-left">
+                <div class="statement" id="statements">
+                    <h1 class="headingS">WHEN IT COMES TO TUTORING, WE DELIVER</h1>
+                    <span>
+                        <p class="headingS">We know every child is brilliant and need to be discovered
+                            Your one-stop destination for learning and exploring.</p>
+                    </span>
+                    <span>
+                        <button>Know More</button>
+                    </span>
+                </div>
+                <div class="side-icons">
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=""><i class="far fa-envelope"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="form">
+                    <div class="join-us">
+                        <span><i class="fas fa-user-plus"></i><h5> Get in Touch!</h5></span>
+                        <span><p>Please fill the form below and we will get back to you ASAP</p></span>
+                    </div>
+                    <div class="input-fields">
+                        <input type="text" placeholder="Name">
+                        <i class="fas fa-user icon"></i>
+                    </div>
+                    <div class="input-fields">
+                        <input type="text" placeholder="Contact">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="input-fields">
+                        <input type="text" placeholder="Email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="input-fields">
+                        <input type="text" placeholder="Message">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="input-fields btn-field">
+                        <div class="btndiv"><button>Submit</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="highlights">
+        <div class="highlight-upper-section">
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-user-friends"></i></div>
+                    <div class="feature-content">
+                        <h4>Community</h4>
+                        <p>Built community to learn</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-book"></i></div>
+                    <div class="feature-content">
+                        <h4>Academics</h4>
+                        <p>A good education should available</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                    <div class="feature-content">
+                        <h4>Admission</h4>
+                        <p>99% of graduates college</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="far fa-heart"></i></div>
+                    <div class="feature-content">
+                        <h4>Activities</h4>
+                        <p>Support academic program</p>
+                    </div>
+                </div>
+                <div class="feature-text">
+                    <p>YOU ARE WELCOME</p>
+                    <h4>Discover our Top School Child Benefits</h4>
+                </div>
+                <div class="find-out-more">
+                    <button>FIND OUT MORE &#11208</button>
+                </div>
+            </div>
+        </div>
+        <div class="highlight-lower-section">
+            <div class="inner-lower-section">
+                <div class="inner-cards first-inner" data-aos="fade-right">
+                    <h4>Welcome</h4>
+                    <p>When you look at schools, ask about the kinds of studies that they offer.
+                         Some high schools are academic, aimed at teaching children plan.</p>
+                    <span>
+                        <p>&#8226 International reputation</p>
+                        <p>&#8226 Prepares future leader</p>
+                        <p>&#8226 Moral and spiritual compass</p>
+                        <p>&#8226 Curriculum and instructions</p>
+                    </span>
+                    <button>FIND OUT MORE &#11208</button>
+                </div>
+                <div class="inner-cards second-inner"></div>
+                <div class="inner-cards third-inner" data-aos="fade-left">
+                    <div class="our-program">
+                        <h4>Our Program</h4>
+                        <p>Get ahead of the competition and discover trends before become yesterday's news.
+                             Start today smarter than you.</p>
+                        <button>SEE PROGRAMS &#11208</button>
+                    </div>
+                    <div class="infos">
+                        <button><i class="fas fa-paper-plane"></i> GET LOCATION &#11208</button>
+                    </div>
+                    <div class="infos">
+                        <button><i class="fas fa-envelope"></i> SEND US AN EMAIL &#11208</button>
+                    </div>
+                    <div class="infos">
+                        <button><i class="fas fa-sign-in-alt"></i> REGISTER NOW &#11208</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="admissions-open">
+        <div class="admission-inner">
+            <div class="admission-text">
+                <p>A day in life. Please join us as we walk through a day of a Ed student. <span><a href="">Request a tour 	
+                    &#8594.</a></span></p>
+            </div>
+            <div class="admission-timer">
+                <p>Admissions to classes starts in</p>
+                <p><span>00</span> : <span>00</span> : <span>00</span> : <span>00</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-explanation">
+        <div class="courses-explain-heading" data-aos="fade-down">
+            <h4>Our Courses</h4>
+        </div>
+        <div class="course-catalog">
+            <div class="course-display">
+                <div class="crs-wrapper">
+                    <div class="course-cards">
+                        <div class="crs-image">
+                            <img src="./asset/images/coding-image.jpg" alt="">
+                        </div>
+                        <div class="crs-content">
+                            <div class="teacher-img">
+                                <img src="./asset/images/teacher.jpg" alt="">
+                            </div>
+                            <div class="crs-inform">
+                                <p class="Tname">Shubham Choudhary</p>
+                                <h4>Coding from professional</h4>
+                                <p>In our course we will work on two examples one is a full...</p>
+                            </div>
+                        </div>
+                        <div class="extra-inform">
+                            <button>View &#11208</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="crs-wrapper">
+                    <div class="course-cards">
+                        <div class="crs-image">
+                            <img src="./asset/images/studying2.jpg" alt="">
+                        </div>
+                        <div class="crs-content">
+                            <div class="teacher-img">
+                                <img src="./asset/images/teacher.jpg" alt="">
+                            </div>
+                            <div class="crs-inform">
+                                <p class="Tname">Shubham Choudhary</p>
+                                <h4>Coding from professional</h4>
+                                <p>In our course we will work on two examples one is a full...</p>
+                            </div>
+                        </div>
+                        <div class="extra-inform">
+                            <button>View &#11208</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="crs-wrapper">
+                    <div class="course-cards">
+                        <div class="crs-image">
+                            <img src="./asset/images/studying.jpeg" alt="">
+                        </div>
+                        <div class="crs-content">
+                            <div class="teacher-img">
+                                <img src="./asset/images/teacher.jpg" alt="">
+                            </div>
+                            <div class="crs-inform">
+                                <p class="Tname">Shubham Choudhary</p>
+                                <h4>Coding from professional</h4>
+                                <p>In our course we will work on two examples one is a full...</p>
+                            </div>
+                        </div>
+                        <div class="extra-inform">
+                            <button>View &#11208</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="crs-wrapper">
+                    <div class="course-cards">
+                        <div class="crs-image">
+                            <img src="./asset/images/digitalM-image.jpg" alt="">
+                        </div>
+                        <div class="crs-content">
+                            <div class="teacher-img">
+                                <img src="./asset/images/teacher.jpg" alt="">
+                            </div>
+                            <div class="crs-inform">
+                                <p class="Tname">Shubham Choudhary</p>
+                                <h4>Coding from professional</h4>
+                                <p>In our course we will work on two examples one is a full...</p>
+                            </div>
+                        </div>
+                        <div class="extra-inform">
+                            <button>View &#11208</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crs-wrapper">
+                    <div class="course-cards">
+                        <div class="crs-image">
+                            <img src="./asset/images/accounting-image.jpg" alt="">
+                        </div>
+                        <div class="crs-content">
+                            <div class="teacher-img">
+                                <img src="./asset/images/teacher.jpg" alt="">
+                            </div>
+                            <div class="crs-inform">
+                                <p class="Tname">Shubham Choudhary</p>
+                                <h4>Coding from professional</h4>
+                                <p>In our course we will work on two examples one is a full...</p>
+                            </div>
+                        </div>
+                        <div class="extra-inform">
+                            <button>View &#11208</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="all-courses-btn">
+            <button>All Courses &#11208</button>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="partner-heading">
+            <h4>Our Partners</h4>
+        </div>
+        <div class="partner-container">
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo2.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo3.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo4.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo5.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo2.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo3.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo4.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo5.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo.jpg" alt="">
+                </div>
+            </div>
+            <div class="partner-wrapper">
+                <div class="partner-img">
+                    <img src="./asset/images/partner-logo2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimony">
+        <div class="testimony-heading">
+            <h4>Testimonials</h4>
+            <p>See what people are saying</p>
+        </div>
+        <div class="testimonial-content">
+
+            <div class="slide-container">
+                <div class="wrapper">
+                    <div class="testimony-card rev1">
+                        <div class="photo">
+                            <div class="outer-circle">
+                                <div class="inner-circle"></div>
+                                <div class="inner-circle2"></div>
+                                <div class="rev-image">
+                                </div>
+                            </div>
+                            <div class="rev-name">
+                                <h4>Sarthak Gupta</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!</p>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="testimony-card rev2">
+                        <div class="photo">
+                            <div class="outer-circle">
+                                <div class="inner-circle"></div>
+                                <div class="inner-circle2"></div>
+                                <div class="rev-image"></div>
+                            </div>
+                            <div class="rev-name">
+                                <h4>Nandini Sharma</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!</p>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="testimony-card rev3">
+                        <div class="photo">
+                            <div class="outer-circle">
+                                <div class="inner-circle"></div>
+                                <div class="inner-circle2"></div>
+                                <div class="rev-image"></div>
+                            </div>
+                            <div class="rev-name">
+                                <h4>Arjun Tyagi</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!</p>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="testimony-card rev4">
+                        <div class="photo">
+                            <div class="outer-circle">
+                                <div class="inner-circle"></div>
+                                <div class="inner-circle2"></div>
+                                <div class="rev-image"></div>
+                            </div>
+                            <div class="rev-name">
+                                <h4>Sakshi Malik</h4>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Eligendi magni odit nemo error odio quaerat pariatur quia ab facilis magnam. 
+                                    Optio mollitia maiores omnis beatae nam inventore nesciunt maxime id!</p>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-facilities">
+        <div class="facilities-container">
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="facility-name">
+                    <h4>Lab Sessions</h4>
+                </div>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="facility-name">
+                    <h4>Theory Lectures</h4>
+                </div>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="facility-name">
+                    <h4>Job Assistance</h4>
+                </div>
+            </div>
+            <div class="facility-card">
+                <div class="facility-icon">
+                    <i class="fas fa-map-signs"></i>
+                </div>
+                <div class="facility-name">
+                    <h4>Professtionl Guidence</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.2888404551795!2d77.71798561454342!3d29.478770052028118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1b40f81d9fd1%3A0x786da099bed66443!2sSilverwink%20-%20Web%20development%2C%20Computer%20Programming%20Training%20Center%20in%20Muzaffarnagar%20India!5e0!3m2!1sen!2sin!4v1639815649296!5m2!1sen!2sin" style="border:0;" allowfullscreen="" class="map" loading="lazy"></iframe>
+    </section>
+
+    <section class="footer"></section>
+
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="./asset/extra/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./asset/js/slider.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script>
+        AOS.init({
+            delay: 100, 
+            duration: 800,
+        });
+
+        $(function () {
+            $('#ham').click(function () {
+                $(".menu").slideToggle(1000);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
